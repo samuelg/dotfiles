@@ -1,0 +1,21 @@
+src/
+VirtualBox VMs/
+Public/
+Pictures/
+Music/
+Movies/
+Library/
+Downloads/
+Documents/
+Desktop/
+.CFUserTextEncoding
+.DS_Store
+.atom/.node-gyp/
+.atom/packages/
+.atom/storage
+.bash_history
+*.swp
+.ssh/
+.subversion/
+.vim/
+.viminfo
