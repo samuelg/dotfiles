@@ -3,6 +3,6 @@ syntax on
 filetype plugin indent on
 
 set background=dark
-colorscheme slate
+colorscheme solarized
 set number
 
