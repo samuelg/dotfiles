@@ -3,3 +3,5 @@
 [user]
 	name = sgalarneau
 	email = sgalarneau@digium.com
+[core]
+	editor = vim
