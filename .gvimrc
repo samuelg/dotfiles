@@ -9,6 +9,10 @@ set number
 set guifont=Monaco:h13
 set t_Co=256
 
+set expandtab
+set tabstop=4
+set shiftwidth=4
+
 augroup markdown
 	au!
 	au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
