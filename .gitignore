@@ -21,3 +21,4 @@ Desktop/
 .viminfo
 .npm/
 .coffee_history
+.node-gyp/
