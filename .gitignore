@@ -22,3 +22,5 @@ Desktop/
 .npm/
 .coffee_history
 .node-gyp/
+.npmrc
+.irssi/
