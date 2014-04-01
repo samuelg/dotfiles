@@ -5,6 +5,7 @@ filetype plugin indent on
 set background=dark
 colorscheme darkblue
 set number
+set ruler
 
 set guifont=Monaco:h13
 set t_Co=256
