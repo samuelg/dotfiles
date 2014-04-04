@@ -5,3 +5,5 @@
 	email = sgalarneau@digium.com
 [core]
 	editor = vim
+[alias]
+	prettylog = log --oneline --graph --color --decorate
