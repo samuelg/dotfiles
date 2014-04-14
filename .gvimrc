@@ -3,7 +3,7 @@ syntax on
 filetype plugin indent on
 
 set background=dark
-colorscheme darkblue
+colorscheme desert
 set number
 set ruler
 
