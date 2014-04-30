@@ -14,6 +14,8 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 
+set foldmethod=indent
+
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
 autocmd Filetype python setlocal ts=4 sw=4 expandtab
