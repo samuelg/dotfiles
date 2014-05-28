@@ -24,7 +24,6 @@ Desktop/
 .node-gyp/
 .npmrc
 .irssi/
-git-completion.bash
 .rbtools*
 .pylint.d
 .cups
