@@ -1,7 +1,7 @@
 [color]
 	ui = true
 [user]
-	name = sgalarneau
+	name = Samuel Fortier-Galarneau
 	email = sgalarneau@digium.com
 [core]
 	editor = vim
