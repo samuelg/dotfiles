@@ -2,13 +2,12 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-set background=light
-colorscheme summerfruit256
+set t_Co=256
+colorscheme guardian
 set number
 set ruler
 
 set guifont=Monaco:h13
-set t_Co=256
 
 set expandtab
 set tabstop=4
