@@ -2,8 +2,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-set background=dark
-colorscheme slate 
+colorscheme molokai
 set number
 set ruler
 
