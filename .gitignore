@@ -23,7 +23,6 @@ Desktop/
 .coffee_history
 .node-gyp/
 .npmrc
-.irssi/
 .rbtools*
 .pylint.d
 .cups
