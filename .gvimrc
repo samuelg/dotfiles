@@ -3,7 +3,7 @@ syntax on
 filetype plugin indent on
 
 set t_Co=256
-colorscheme guardian
+colorscheme kolor
 set number
 set ruler
 
