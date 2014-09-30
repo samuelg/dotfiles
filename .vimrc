@@ -6,8 +6,6 @@ colorscheme kolor
 set number
 set ruler
 
-set guifont=Monaco:h13
-
 set expandtab
 set tabstop=4
 set shiftwidth=4
