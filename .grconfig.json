@@ -12,7 +12,9 @@
       "/Users/sgalarneau/src/git/voicemail/voicemail-main-app",
       "/Users/sgalarneau/src/git/voicemail/voicemail-main-fsm",
       "/Users/sgalarneau/src/git/voicemail/voicemail-notify",
-      "/Users/sgalarneau/src/git/voicemail/voicemail-prompt"
+      "/Users/sgalarneau/src/git/voicemail/voicemail-prompt",
+      "/Users/sgalarneau/src/git/voicemail/voicemail-logging",
+      "/Users/sgalarneau/src/git/voicemail/voicemail-docs"
     ]
   }
 }
