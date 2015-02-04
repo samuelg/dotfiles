@@ -17,6 +17,8 @@ autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
 autocmd Filetype python setlocal ts=4 sw=4 expandtab
 autocmd BufRead,BufNewFile *.md setlocal spell
 
+"disable html checking for now
+let g:syntastic_html_checkers=['']
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
 
 "allow for ionic html attributes
