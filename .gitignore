@@ -50,3 +50,11 @@ GitMigration*
 .cache
 .atom/compile-cache/
 .NERDTreeBookmarks
+AndroidStudioProjects/
+EclipseProjects/
+gerrit/
+.ionic/
+.cordova/
+.android/
+.gradle/
+.plugman/
