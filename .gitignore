@@ -58,3 +58,4 @@ gerrit/
 .android/
 .gradle/
 .plugman/
+.atom/.apm
