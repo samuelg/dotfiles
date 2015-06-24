@@ -7,5 +7,6 @@
 	editor = vim
 [alias]
 	prettylog = log --oneline --graph --color --decorate
+    lg = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)%an%d%Creset %s %Cgreen(%cr)%Creset' --date=relative
 [color "status"]
 	branch = yellow
