@@ -6,3 +6,4 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 export PYTHONIOENCODING=utf-8
 export PATH="$PATH:~/Library/Android/sdk/platform-tools:~/Library/Android/sdk/tools"
 export ANDROID_HOME=/Users/sgalarneau/Library/Android/sdk
+export PATH=$PATH:/usr/local/sbin
