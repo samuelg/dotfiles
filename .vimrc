@@ -2,7 +2,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-colorscheme summerfruit256
+colorscheme zenburn
+set bg=dark
 set number
 set ruler
 
@@ -10,49 +11,22 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 
-set foldmethod=indent
-
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
 autocmd Filetype python setlocal ts=4 sw=4 expandtab
 autocmd BufRead,BufNewFile *.md setlocal spell
 
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
+
+:highlight ExtraWhitespace ctermbg=red guibg=red
+:match ExtraWhitespace /\s\+$/
+
 "disable html checking for now
 let g:syntastic_html_checkers=['']
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
 
-"allow for ionic html attributes
-let g:syntastic_html_tidy_blocklevel_tags = [
-\'ion-checkbox',
-\'ion-content',
-\'ion-delete-button',
-\'ion-footer-bar',
-\'ion-header-bar',
-\'ion-infinite-scroll',
-\'ion-item',
-\'ion-list',
-\'ion-modal-view',
-\'ion-nav-back-button',
-\'ion-nav-bar',
-\'ion-nav-buttons',
-\'ion-nav-view',
-\'ion-option-button',
-\'ion-pane',
-\'ion-popover-view',
-\'ion-radio',
-\'ion-refresher',
-\'ion-reorder-button',
-\'ion-scroll',
-\'ion-side-menu',
-\'ion-side-menus',
-\'ion-side-menu-content',
-\'ion-slide',
-\'ion-slide-box',
-\'ion-tab',
-\'ion-tabs',
-\'ion-toggle',
-\'ion-view',
-\]
+let g:syntastic_javascript_checkers = ['eslint']
 
 set colorcolumn=81
 
