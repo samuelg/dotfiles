@@ -8,7 +8,7 @@ set bg=dark
 set number
 set ruler
 
-set guifont=Monaco:h14
+set guifont=Monaco:h12
 
 set expandtab
 set tabstop=4
