@@ -2,8 +2,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-colorscheme inkpot
 set bg=dark
+colorscheme badwolf
 set number
 set ruler
 
@@ -37,3 +37,4 @@ augroup markdown
 	au!
 	au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
 augroup END
+

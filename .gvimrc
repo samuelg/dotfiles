@@ -2,8 +2,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-set t_Co=256
-colorscheme inkpot
+colorscheme badwolf
 set bg=dark
 set number
 set ruler
