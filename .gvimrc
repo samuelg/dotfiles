@@ -2,8 +2,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-colorscheme badwolf
 set bg=dark
+colorscheme badwolf
 set number
 set ruler
 
