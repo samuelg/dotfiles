@@ -1,7 +1,0 @@
-"*":
-  "activate-power-mode":
-    plugins:
-      playAudio: true
-      screenShake: true
-  "exception-reporting":
-    userId: "cf4a84c3-bc1c-47e3-9b73-1d69e520d732"
