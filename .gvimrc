@@ -2,13 +2,15 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+"display rules
 set bg=dark
 colorscheme badwolf
 set number
 set ruler
-
 set guifont=Monaco:h12
+set hlsearch
 
+" spacing rules
 set expandtab
 set tabstop=4
 set shiftwidth=4

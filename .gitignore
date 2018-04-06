@@ -89,3 +89,8 @@ gerrit/
 .AndroidStudio2.1
 .bash_profile
 .atom
+.shuttle.json
+.node_repl_history
+*.swo
+Boostnote
+.oracle_jre_usage
