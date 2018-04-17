@@ -3,8 +3,7 @@ syntax on
 filetype plugin indent on
 
 "display rules
-set bg=dark
-colorscheme badwolf
+colorscheme material
 set number
 set ruler
 set hlsearch

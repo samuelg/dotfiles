@@ -94,3 +94,9 @@ gerrit/
 *.swo
 Boostnote
 .oracle_jre_usage
+*.swp
+.shpotify.cfg
+.zsh-update
+.zcompdump-IT*
+.zsh_history
+.oh-my-zsh

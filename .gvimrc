@@ -4,7 +4,7 @@ filetype plugin indent on
 
 "display rules
 set bg=dark
-colorscheme badwolf
+colorscheme material
 set number
 set ruler
 set guifont=Monaco:h12
