@@ -3,7 +3,7 @@ syntax on
 filetype plugin indent on
 
 "display rules
-colorscheme material
+colorscheme benokai
 set number
 set ruler
 set hlsearch

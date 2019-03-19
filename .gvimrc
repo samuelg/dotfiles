@@ -7,7 +7,7 @@ set bg=dark
 colorscheme material
 set number
 set ruler
-set guifont=Monaco:h12
+set guifont=Monaco:h16
 set hlsearch
 
 " spacing rules

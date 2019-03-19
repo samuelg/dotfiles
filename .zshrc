@@ -39,7 +39,7 @@ ZSH_THEME="agnoster"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -62,8 +62,10 @@ DEFAULT_USER="sgalarneau"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  aws
   brew
   capistrano
+  compleat
   docker
   docker-compose
   gem
@@ -86,6 +88,7 @@ plugins=(
   rvm
   ssh-agent
   tig
+  tmux
   vagrant
   virtualenv
 )
@@ -103,7 +106,7 @@ export LANG=en_US.UTF-8
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='mvim'
+  export EDITOR='vim'
 fi
 
 # Compilation flags
@@ -120,3 +123,18 @@ export SSH_KEY_PATH="~/.ssh/sgalarneau"
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+
+export NODE_PATH=/usr/local/lib/node_modules
+export SVN_EDITOR=vim
+export PYTHONIOENCODING=utf-8
+export PATH="$PATH:~/Library/Android/sdk/platform-tools:~/Library/Android/sdk/tools"
+export ANDROID_HOME=/Users/sgalarneau/Library/Android/sdk
+export PATH=$PATH:/usr/local/sbin
+
+export NVM_DIR="/Users/sgalarneau/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
