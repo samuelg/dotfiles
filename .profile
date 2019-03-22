@@ -25,3 +25,6 @@ complete -o default -o nospace -W "$(/usr/bin/env ruby -ne 'puts $_.split(/[,\s]
 
 # add golang's path
 export PATH="$PATH:~/go/bin"
+
+# display system data
+neofetch
