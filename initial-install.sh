@@ -24,6 +24,8 @@ brew install node
 brew install nvm
 brew install pdsh
 brew install python
+brew install python@2
+brew install pyenv
 brew install sngrep
 brew install sqlite
 brew install tig
