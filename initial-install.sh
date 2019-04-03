@@ -33,3 +33,4 @@ brew install tmux
 brew install watch
 brew install wget
 brew install yamllint
+brew install fping
