@@ -26,5 +26,8 @@ complete -o default -o nospace -W "$(/usr/bin/env ruby -ne 'puts $_.split(/[,\s]
 # add golang's path
 export PATH="$PATH:~/go/bin"
 
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+export PATH="/usr/local/opt/node@10/bin:$PATH"
+
 # display system data
 neofetch

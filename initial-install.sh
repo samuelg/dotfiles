@@ -17,10 +17,10 @@ brew install htop
 brew install jq
 brew install lynx
 brew install macvim
-brew install mysql
+brew install mysql@5.7
 brew install neofetch
 brew install netcat
-brew install node
+brew install node@10
 brew install nvm
 brew install pdsh
 brew install python
