@@ -8,8 +8,9 @@ export PATH="$PATH:~/Library/Android/sdk/platform-tools:~/Library/Android/sdk/to
 export ANDROID_HOME=/Users/sgalarneau/Library/Android/sdk
 export PATH=$PATH:/usr/local/sbin
 
-export NVM_DIR="/Users/sgalarneau/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
