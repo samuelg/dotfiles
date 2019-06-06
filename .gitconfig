@@ -20,3 +20,15 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[diff "ansible-vault"]
+	textconv = ansible-vault view
+	# Do not cache the vault contents
+	cachetextconv = false
+[merge "ansible-vault"]
+	name = ansible-vault merge driver
+	driver = /usr/local/bin/ansible-vault-merge -- %O %A %B %P
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

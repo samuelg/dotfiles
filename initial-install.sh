@@ -34,3 +34,5 @@ brew install watch
 brew install wget
 brew install yamllint
 brew install fping
+brew install git-lfs
+brew install mtr
