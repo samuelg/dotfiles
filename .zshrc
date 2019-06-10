@@ -129,6 +129,12 @@ export SVN_EDITOR=vim
 export PYTHONIOENCODING=utf-8
 export PATH=$PATH:/usr/local/sbin
 
+# add golang's path
+export PATH="$PATH:~/go/bin"
+
+# add mysql to path
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 
