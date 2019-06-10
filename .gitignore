@@ -104,3 +104,4 @@ iCloud Drive (Archive)/
 go/
 Exercism/
 .zcompdump*
+.tig_history
