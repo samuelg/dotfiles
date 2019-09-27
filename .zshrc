@@ -124,6 +124,7 @@ export SSH_KEY_PATH="~/.ssh/sgalarneau"
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+alias sssh="/usr/bin/ssh -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null"
 
 export NODE_PATH=/usr/local/lib/node_modules
 export SVN_EDITOR=vim
