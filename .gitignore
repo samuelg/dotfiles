@@ -105,3 +105,4 @@ go/
 Exercism/
 .zcompdump*
 .tig_history
+.ganttproject
