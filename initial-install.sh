@@ -24,7 +24,6 @@ brew install node@10
 brew install nvm
 brew install pdsh
 brew install python
-brew install python@2
 brew install pyenv
 brew install sngrep
 brew install sqlite
@@ -44,3 +43,8 @@ brew cask install font-fira-code
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Setup python (see https://opensource.com/article/19/5/python-3-default-mac for details)
+pyenv install 3.8.1
+pyenv global 3.8.1
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
