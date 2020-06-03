@@ -127,6 +127,8 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 alias sssh="/usr/bin/ssh -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null"
 alias py2="pyenv global 2.7.17"
 alias py3="pyenv global 3.8.1"
+# suffix aliases
+alias -s {js,html,css,md,json,rb,py,txt,log}=vim
 
 export NODE_PATH=/usr/local/lib/node_modules
 export SVN_EDITOR=vim
