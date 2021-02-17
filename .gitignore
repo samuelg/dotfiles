@@ -108,3 +108,5 @@ Exercism/
 .ganttproject
 .pyenv
 .python_history
+.cargo/
+.rustup/
