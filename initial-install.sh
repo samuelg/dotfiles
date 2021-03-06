@@ -36,10 +36,11 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 # vim plugins
 git clone https://github.com/preservim/nerdtree.git ~/.vim/bundle/nerdtree
 git clone https://github.com/editorconfig/editorconfig-vim.git ~/.vim/bundle/editorconfig-vim
-# TODO: others
-
-# vim theme
-wget -O ~/.vim/colors/benokai.vim https://github.com/benjaminwhite/Benokai/blob/master/colors/Benokai.vim
+git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
+git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
+git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
+git clone https://github.com/sheerun/vim-polyglot.git ~/.vim/bundle/vim-polyglot
+git clone https://github.com/mhinz/vim-startify.git ~/.vim/bundle/vim-startify
 
 # backup zshrc file first
 cp ~/.zshrc ~/.zshrc.backup
