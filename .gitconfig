@@ -2,10 +2,10 @@
 	ui = true
 [user]
 	name = Samuel Fortier-Galarneau
-	email = sgalarneau@digium.com
+	email = samuel.galarneau@gmail.com
 [core]
 	editor = vim
-	excludesfile = /Users/sgalarneau/.gitignore_global
+	excludesfile = /Users/samuelg/.gitignore_global
 [alias]
 	prettylog = log --oneline --graph --color --decorate
     lg = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)%an%d%Creset %s %Cgreen(%cr)%Creset' --date=relative
@@ -14,21 +14,3 @@
 [merge "npm-merge-driver"]
 	name = automatically merge npm lockfiles
 	driver = npx npm-merge-driver merge %A %O %B %P
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-[diff "ansible-vault"]
-	textconv = ansible-vault view
-	# Do not cache the vault contents
-	cachetextconv = false
-[merge "ansible-vault"]
-	name = ansible-vault merge driver
-	driver = /usr/local/bin/ansible-vault-merge -- %O %A %B %P
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true

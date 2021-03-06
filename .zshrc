@@ -9,7 +9,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/sgalarneau/.oh-my-zsh
+export ZSH=/Users/samuelg/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -63,7 +63,7 @@ COMPLETION_WAITING_DOTS="true"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # default user for theme
-DEFAULT_USER="sgalarneau"
+DEFAULT_USER="samuelg"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -72,12 +72,9 @@ DEFAULT_USER="sgalarneau"
 plugins=(
   aws
   brew
-  bundler
-  capistrano
   compleat
   docker
   docker-compose
-  gem
   git
   golang
   history
@@ -90,11 +87,7 @@ plugins=(
   pep8
   pip
   python
-  rails
-  rake
   redis-cli
-  ruby
-  rvm
   ssh-agent
   tig
   tmux
@@ -122,7 +115,7 @@ fi
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-export SSH_KEY_PATH="~/.ssh/sgalarneau"
+export SSH_KEY_PATH="~/.ssh/id_ed25519"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -133,8 +126,6 @@ export SSH_KEY_PATH="~/.ssh/sgalarneau"
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias sssh="/usr/bin/ssh -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null"
-alias py2="pyenv global 2.7.17"
-alias py3="pyenv global 3.8.1"
 # suffix aliases
 alias -s {js,html,css,md,json,rb,py,txt,log}=vim
 
@@ -146,14 +137,9 @@ export PATH=$PATH:/usr/local/sbin
 # add golang's path
 export PATH="$PATH:~/go/bin"
 
-# add mysql to path
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
