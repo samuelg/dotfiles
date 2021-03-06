@@ -12,6 +12,7 @@ brew install git
 brew install htop
 brew install httpie
 brew install jq
+brew install lnav
 brew install macvim
 brew install nvm
 brew install pyenv
