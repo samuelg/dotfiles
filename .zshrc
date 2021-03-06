@@ -70,8 +70,10 @@ DEFAULT_USER="samuelg"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  ansible
   aws
   brew
+  cargo
   compleat
   docker
   docker-compose
@@ -86,8 +88,13 @@ plugins=(
   osx
   pep8
   pip
+  pipenv
+  postgres
   python
+  pyenv
   redis-cli
+  rust
+  rustup
   ssh-agent
   tig
   tmux
