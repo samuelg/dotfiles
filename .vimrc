@@ -39,4 +39,10 @@ set listchars=tab:▸\ ,eol:¬
 " show line length limit
 set colorcolumn=81
 
+" setup fzf
+set rtp+=/usr/local/opt/fzf
+nnoremap <C-p> :Files<CR>
+nnoremap <Leader>b :Buffers<CR>
+nnoremap <Leader>h :History<CR>
+
 " TODO add syntax checker

@@ -8,6 +8,7 @@ xcode-select --install
 
 brew install brew-cask
 brew install exercism
+brew install fzf
 brew install git
 brew install htop
 brew install httpie
@@ -16,6 +17,7 @@ brew install lnav
 brew install macvim
 brew install nvm
 brew install pyenv
+brew install ripgrep
 brew install tig
 brew install tmux
 brew install watch
@@ -41,6 +43,7 @@ git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
 git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
 git clone https://github.com/sheerun/vim-polyglot.git ~/.vim/bundle/vim-polyglot
 git clone https://github.com/mhinz/vim-startify.git ~/.vim/bundle/vim-startify
+git clone https://github.com/junegunn/fzf.vim.git ~/.vim/bundle/fzf
 
 # backup zshrc file first
 cp ~/.zshrc ~/.zshrc.backup
