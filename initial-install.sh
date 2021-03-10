@@ -6,6 +6,8 @@ xcode-select --install
 # homebrew.
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+brew install ansible
+brew install beanstalkd
 brew install brew-cask
 brew install exercism
 brew install fzf
@@ -13,10 +15,12 @@ brew install git
 brew install htop
 brew install httpie
 brew install jq
+brew install libpq
 brew install lnav
 brew install macvim
 brew install nvm
 brew install pyenv
+brew install redis
 brew install ripgrep
 brew install tig
 brew install tmux
@@ -25,6 +29,7 @@ brew install wget
 brew install yamllint
 brew install mtr
 brew install tree
+brew install vagrant
 
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code

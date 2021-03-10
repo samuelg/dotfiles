@@ -1,4 +1,5 @@
 src/
+data/
 VirtualBox VMs/
 Public/
 Pictures/
@@ -69,3 +70,7 @@ Exercism/
 .cargo/
 .rustup/
 .zcompdump*
+.lesshst
+.pgadmin
+.rediscli_history
+.standard-cache
