@@ -37,7 +37,8 @@ Applications/
 .psql_history
 .pgpass
 .pgadmin_histoqueries
-.config
+.config/*
+!.config/nvim/
 .cache
 .NERDTreeBookmarks
 .vagrant.d

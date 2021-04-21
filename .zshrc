@@ -131,11 +131,12 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="vim ~/.zshrc"
-alias ohmyzsh="vim ~/.oh-my-zsh"
+alias vim="nvim"
+alias zshconfig="nvim ~/.zshrc"
+alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias sssh="/usr/bin/ssh -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null"
 # suffix aliases
-alias -s {js,html,css,md,json,rb,py,txt,log}=vim
+alias -s {js,html,css,md,json,rb,py,rs,go,yml,toml,txt,log}=nvim
 
 export NODE_PATH=/usr/local/lib/node_modules
 export SVN_EDITOR=vim

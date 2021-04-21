@@ -4,7 +4,7 @@
 	name = Samuel Fortier-Galarneau
 	email = samuel.galarneau@gmail.com
 [core]
-	editor = vim
+	editor = nvim
 	excludesfile = /Users/samuelg/.gitignore_global
 [alias]
 	prettylog = log --oneline --graph --color --decorate
