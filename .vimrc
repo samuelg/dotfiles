@@ -33,11 +33,11 @@ else
 endif
 
 " display rules
-set background=dark
-let g:solarized_termcolors=256
-let g:solarized_termtrans = 1
-colorscheme solarized
-let g:airline_theme='solarized'
+set termguicolors
+let ayucolor="dark"
+colorscheme ayu
+let g:airline_theme = 'dark'
+let g:airline_powerline_fonts = 1
 set number
 set ruler
 set hlsearch
