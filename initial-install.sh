@@ -54,7 +54,6 @@ git clone https://github.com/sheerun/vim-polyglot.git ~/.vim/bundle/vim-polyglot
 git clone https://github.com/mhinz/vim-startify.git ~/.vim/bundle/vim-startify
 git clone https://github.com/junegunn/fzf.vim.git ~/.vim/bundle/fzf
 git clone https://github.com/dense-analysis/ale.git ~/.vim/bundle/ale
-git clone https://github.com/ludovicchabant/vim-gutentags.git ~/.vim/bundle/gutentags
 git clone https://github.com/neoclide/coc.nvim.git ~/.vim/bundle/coc.nvim
 
 # backup zshrc file first
