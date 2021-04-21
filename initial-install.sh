@@ -6,12 +6,15 @@ xcode-select --install
 # homebrew.
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install ansible
+brew install ansible@2.8
+brew install aurora
 brew install beanstalkd
 brew install brew-cask
+brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 brew install exercism
 brew install fzf
 brew install git
+brew install golang
 brew install htop
 brew install httpie
 brew install jq
@@ -22,6 +25,7 @@ brew install nvm
 brew install pyenv
 brew install redis
 brew install ripgrep
+brew install shpotify
 brew install tig
 brew install tmux
 brew install watch
@@ -49,6 +53,9 @@ git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-ai
 git clone https://github.com/sheerun/vim-polyglot.git ~/.vim/bundle/vim-polyglot
 git clone https://github.com/mhinz/vim-startify.git ~/.vim/bundle/vim-startify
 git clone https://github.com/junegunn/fzf.vim.git ~/.vim/bundle/fzf
+git clone https://github.com/dense-analysis/ale.git ~/.vim/bundle/ale
+git clone https://github.com/ludovicchabant/vim-gutentags.git ~/.vim/bundle/gutentags
+git clone https://github.com/neoclide/coc.nvim.git ~/.vim/bundle/coc.nvim
 
 # backup zshrc file first
 cp ~/.zshrc ~/.zshrc.backup
@@ -61,3 +68,8 @@ mv ~/.zshrc.backup ~/.zshrc
 
 # power10k theme for oh-my-zsh
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
+# rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+wget https://github.com/rust-analyzer/rust-analyzer/releases/download/2021-04-20/rust-analyzer-mac -O /usr/local/bin/rust-analyzer
+sudo chmod 655 /usr/local/bin/rust-analyzer

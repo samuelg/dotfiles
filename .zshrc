@@ -142,9 +142,6 @@ export SVN_EDITOR=vim
 export PYTHONIOENCODING=utf-8
 export PATH=$PATH:/usr/local/sbin
 
-# add golang's path
-export PATH="$PATH:~/go/bin"
-
 # fzf
 export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
 
@@ -161,3 +158,7 @@ fi
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="/usr/local/opt/ansible@2.8/bin:$PATH"
 export PATH="/usr/local/opt/libpq/bin:$PATH"
+
+# PostGres binaries
+export POSTGRES_VERSION=11
+export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/$POSTGRES_VERSION/bin"

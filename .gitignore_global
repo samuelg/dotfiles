@@ -4,3 +4,6 @@
 .idea
 *.swo
 *.swp
+# ctags
+tags
+.wget-hsts

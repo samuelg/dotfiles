@@ -15,7 +15,9 @@ Desktop/
 *.swp
 .ssh/
 .subversion/
-.vim/
+.vim/autoload
+.vim/bundle
+.vim/colors
 .viminfo
 .npm/
 .node-gyp/
