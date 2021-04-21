@@ -57,6 +57,7 @@ git clone https://github.com/dense-analysis/ale.git ~/.vim/bundle/ale
 git clone https://github.com/neoclide/coc.nvim.git ~/.vim/bundle/coc.nvim
 git clone https://github.com/airblade/vim-rooter.git ~/.vim/bundle/vim-rooter
 git clone https://github.com/ayu-theme/ayu-vim.git ~/.vim/bundle/ayu-vim
+git clone https://github.com/ryanoasis/vim-devicons.git ~/.vim/bundle/vim-devicons
 
 # backup zshrc file first
 cp ~/.zshrc ~/.zshrc.backup
