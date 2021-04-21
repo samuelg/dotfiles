@@ -82,6 +82,9 @@ nmap <silent> ]c <Plug>(ale_next_wrap)
 let g:ale_sign_error = '❌'
 let g:ale_sign_warning = '⚠️'
 
+" vim-rooter
+let g:rooter_patterns = ['.git', 'build', 'Makefile']
+
 " coc.nvim
 let  g:coc_node_path = '/Users/samuelg/.nvm/versions/node/v14.16.0/bin/node'
 let g:coc_global_extensions = [

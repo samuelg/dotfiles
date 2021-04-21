@@ -55,6 +55,7 @@ git clone https://github.com/mhinz/vim-startify.git ~/.vim/bundle/vim-startify
 git clone https://github.com/junegunn/fzf.vim.git ~/.vim/bundle/fzf
 git clone https://github.com/dense-analysis/ale.git ~/.vim/bundle/ale
 git clone https://github.com/neoclide/coc.nvim.git ~/.vim/bundle/coc.nvim
+git clone https://github.com/airblade/vim-rooter.git ~/.vim/bundle/vim-rooter
 
 # backup zshrc file first
 cp ~/.zshrc ~/.zshrc.backup
