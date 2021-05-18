@@ -34,9 +34,7 @@ endif
 
 " display rules
 set termguicolors
-let ayucolor="dark"
-colorscheme ayu
-let g:airline_theme = 'dark'
+colorscheme bogster
 let g:airline_powerline_fonts = 1
 set number
 set ruler
