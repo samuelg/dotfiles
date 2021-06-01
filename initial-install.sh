@@ -12,6 +12,7 @@ brew install beanstalkd
 brew install brew-cask
 brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 brew install exercism
+brew install fd
 brew install fzf
 brew install git
 brew install golang
@@ -34,6 +35,7 @@ brew install yamllint
 brew install mtr
 brew install tree
 brew install vagrant
+brew install zellij
 
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
@@ -59,6 +61,7 @@ git clone https://github.com/airblade/vim-rooter.git ~/.vim/bundle/vim-rooter
 git clone https://github.com/ayu-theme/ayu-vim.git ~/.vim/bundle/ayu-vim
 git clone https://github.com/ryanoasis/vim-devicons.git ~/.vim/bundle/vim-devicons
 git clone https://github.com/wojciechkepka/bogster.git ~/.vim/bundle/bogster
+git clone https://github.com/pearofducks/ansible-vim ~/.vim/bundle/ansible-vim
 
 # backup zshrc file first
 cp ~/.zshrc ~/.zshrc.backup
