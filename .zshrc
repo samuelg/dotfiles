@@ -163,3 +163,6 @@ export PATH="/usr/local/opt/libpq/bin:$PATH"
 # PostGres binaries
 export POSTGRES_VERSION=11
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/$POSTGRES_VERSION/bin"
+
+# go
+export PATH="/usr/local/opt/go@1.13/bin:$PATH"
