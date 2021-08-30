@@ -34,12 +34,13 @@ endif
 
 " display rules
 set termguicolors
-colorscheme bogster
+let ayucolor="light"
+colorscheme ayu
 let g:airline_powerline_fonts = 1
 set number
 set ruler
 set hlsearch
-set guifont=Fira\ Code:h16
+set guifont=Fira\ Code:h14
 
 " spacing rules
 set expandtab
@@ -67,6 +68,12 @@ set listchars=tab:▸\ ,eol:¬
 
 " show line length limit
 set colorcolumn=81
+" do not auto insert newlines at max width
+set textwidth=0
+set wrapmargin=0
+
+" enable folding
+set foldmethod=indent
 
 " fzf
 set rtp+=/usr/local/opt/fzf
