@@ -130,11 +130,12 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
+# various aliases
 alias vim="nvim"
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias sssh="/usr/bin/ssh -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null"
+alias tv="tidy-viewer"
 # suffix aliases
 alias -s {js,html,css,md,json,rb,py,rs,go,yml,toml,txt,log}=nvim
 
