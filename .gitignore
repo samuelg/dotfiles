@@ -39,6 +39,7 @@ Applications/
 .pgadmin_histoqueries
 .config/*
 !.config/nvim/
+!.config/kitty/
 .cache
 .NERDTreeBookmarks
 .vagrant.d
@@ -78,3 +79,4 @@ Exercism/
 .rediscli_history
 .standard-cache
 aurora.toml
+.tmux/

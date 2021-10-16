@@ -33,14 +33,12 @@ else
 endif
 
 " display rules
-set termguicolors
-let ayucolor="light"
-colorscheme ayu
+colorscheme dracula
 let g:airline_powerline_fonts = 1
 set number
 set ruler
 set hlsearch
-set guifont=Fira\ Code:h14
+set guifont=Fira\ Code:h16
 
 " spacing rules
 set expandtab

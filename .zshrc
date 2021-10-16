@@ -92,7 +92,6 @@ plugins=(
   pipenv
   postgres
   python
-  pyenv
   redis-cli
   rust
   rustup
@@ -151,19 +150,18 @@ export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 
-# pyenv
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Various binaries
 export PATH="/usr/local/opt/ansible@2.8/bin:$PATH"
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 
 # PostGres binaries
 export POSTGRES_VERSION=11
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/$POSTGRES_VERSION/bin"
+
+export TERM=xterm-256color
 
 # go
 export PATH="/usr/local/opt/go@1.13/bin:$PATH"

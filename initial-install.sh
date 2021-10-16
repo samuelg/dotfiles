@@ -6,6 +6,7 @@ xcode-select --install
 # homebrew.
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+brew install --cask kitty
 brew install ansible@2.8
 brew install aurora
 brew install beanstalkd
@@ -23,7 +24,6 @@ brew install libpq
 brew install lnav
 brew install macvim
 brew install nvm
-brew install pyenv
 brew install redis
 brew install ripgrep
 brew install shpotify
@@ -49,7 +49,6 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 # vim plugins
 git clone https://github.com/preservim/nerdtree.git ~/.vim/bundle/nerdtree
 git clone https://github.com/editorconfig/editorconfig-vim.git ~/.vim/bundle/editorconfig-vim
-git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
 git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
 git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
 git clone https://github.com/sheerun/vim-polyglot.git ~/.vim/bundle/vim-polyglot
@@ -58,10 +57,15 @@ git clone https://github.com/junegunn/fzf.vim.git ~/.vim/bundle/fzf
 git clone https://github.com/dense-analysis/ale.git ~/.vim/bundle/ale
 git clone https://github.com/neoclide/coc.nvim.git ~/.vim/bundle/coc.nvim
 git clone https://github.com/airblade/vim-rooter.git ~/.vim/bundle/vim-rooter
+git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
 git clone https://github.com/ayu-theme/ayu-vim.git ~/.vim/bundle/ayu-vim
+git clone https://github.com/dracula/vim.git ~/.vim/bundle/dracula
 git clone https://github.com/ryanoasis/vim-devicons.git ~/.vim/bundle/vim-devicons
 git clone https://github.com/wojciechkepka/bogster.git ~/.vim/bundle/bogster
 git clone https://github.com/pearofducks/ansible-vim ~/.vim/bundle/ansible-vim
+
+# tmux TPM setup
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # backup zshrc file first
 cp ~/.zshrc ~/.zshrc.backup
