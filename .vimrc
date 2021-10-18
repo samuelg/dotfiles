@@ -20,6 +20,9 @@ set cmdheight=2
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 " delays and poor user experience.
 set updatetime=300
+" attempt to speed-up vim
+set ttyfast
+set lazyredraw
 
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c

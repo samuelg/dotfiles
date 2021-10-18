@@ -65,6 +65,9 @@ COMPLETION_WAITING_DOTS="true"
 # default user for theme
 DEFAULT_USER="samuelg"
 
+# automatically run `nvm use` when .nvmrc present
+NVM_AUTOLOAD=1
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
@@ -82,7 +85,6 @@ plugins=(
   golang
   history
   httpie
-  iterm2
   node
   npm
   nvm
@@ -135,6 +137,7 @@ alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias sssh="/usr/bin/ssh -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null"
 alias tv="tidy-viewer"
+alias weather="curl -4 wttr.in/huntsville"
 # suffix aliases
 alias -s {js,html,css,md,json,rb,py,rs,go,yml,toml,txt,log}=nvim
 
@@ -160,8 +163,6 @@ export PATH="/usr/local/opt/libpq/bin:$PATH"
 # PostGres binaries
 export POSTGRES_VERSION=11
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/$POSTGRES_VERSION/bin"
-
-export TERM=xterm-256color
 
 # go
 export PATH="/usr/local/opt/go@1.13/bin:$PATH"

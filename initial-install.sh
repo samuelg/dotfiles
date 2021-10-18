@@ -7,11 +7,12 @@ xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew install --cask kitty
+brew install --HEAD universal-ctags/universal-ctags/universal-ctags
+
 brew install ansible@2.8
 brew install aurora
 brew install beanstalkd
 brew install brew-cask
-brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 brew install exercism
 brew install fd
 brew install fzf
@@ -19,22 +20,24 @@ brew install git
 brew install golang
 brew install htop
 brew install httpie
+brew install imagemagick
 brew install jq
 brew install libpq
 brew install lnav
 brew install macvim
+brew install mtr
 brew install nvm
+brew install python3
 brew install redis
 brew install ripgrep
 brew install shpotify
 brew install tig
 brew install tmux
+brew install tree
+brew install vagrant
 brew install watch
 brew install wget
 brew install yamllint
-brew install mtr
-brew install tree
-brew install vagrant
 brew install zellij
 
 brew tap homebrew/cask-fonts
