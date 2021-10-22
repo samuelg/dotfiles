@@ -159,6 +159,7 @@ export NVM_DIR="$HOME/.nvm"
 # Various binaries
 export PATH="/usr/local/opt/ansible@2.8/bin:$PATH"
 export PATH="/usr/local/opt/libpq/bin:$PATH"
+export PATH="/usr/local/opt/influxdb@1/bin:$PATH"
 
 # PostGres binaries
 export POSTGRES_VERSION=11
