@@ -1,0 +1,31 @@
+[caps]>[lctrl]
+{hk1}>{s5}{x1}{-lwin}{d}{+lwin}
+{hk2}>{s5}{x1}{-lalt}{tab}{+lalt}
+{hk3}>{s5}{x1}{-lctrl}{a}{+lctrl}
+{hk4}>{s5}{x1}{-lctrl}{z}{+lctrl}
+{hk5}>{s5}{x1}{-lctrl}{x}{+lctrl}
+{hk6}>{s1}{del}
+{hk7}>{s5}{x1}{-lctrl}{c}{+lctrl}
+{hk8}>{s5}{x1}{-lshft}{ins}{+lshft}
+[hk9]>[fnshf]
+fn [scrlk]>[numlk]
+fn [7]>[kp7]
+fn [8]>[kp8]
+fn [9]>[kp9]
+fn [0]>[kp0]
+fn [hyph]>[kp*]
+fn [bspc]>[del]
+fn [u]>[kp4]
+fn [i]>[kp5]
+fn [o]>[kp6]
+fn [p]>[kp-]
+fn [j]>[kp1]
+fn [k]>[kp2]
+fn [l]>[kp3]
+fn [colon]>[kp+]
+fn [m]>[kp0]
+fn [per]>[kp.]
+fn [/]>[kp/]
+fn [hk9]>[fnshf]
+fn [lctrl]>[caps]
+fn [rspc]>[kpent]

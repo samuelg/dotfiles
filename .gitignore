@@ -80,3 +80,4 @@ Exercism/
 .standard-cache
 aurora.toml
 .tmux/
+.influx_history
