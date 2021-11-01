@@ -7,6 +7,7 @@ xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew install --cask kitty
+brew install --cask alacritty
 brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 
 brew install ansible@2.8
