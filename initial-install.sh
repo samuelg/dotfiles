@@ -42,7 +42,7 @@ brew install yamllint
 brew install zellij
 
 brew tap homebrew/cask-fonts
-brew install --cask font-fira-code
+brew install --cask font-hack-nerd-font
 
 # vim plugin directories
 mkdir -p ~/.vim/autoload ~/.vim/colors ~/.vim/bundle

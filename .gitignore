@@ -40,6 +40,7 @@ Applications/
 .config/*
 !.config/nvim/
 !.config/kitty/
+!.config/alacritty/
 .cache
 .NERDTreeBookmarks
 .vagrant.d

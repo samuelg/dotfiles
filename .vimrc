@@ -41,7 +41,7 @@ let g:airline_powerline_fonts = 1
 set number
 set ruler
 set hlsearch
-set guifont=Fira\ Code:h16
+set guifont=MesloLGS\ NF:h14
 
 " spacing rules
 set expandtab
