@@ -85,10 +85,10 @@ plugins=(
   golang
   history
   httpie
+  macos
   node
   npm
   nvm
-  osx
   pep8
   pip
   pipenv
