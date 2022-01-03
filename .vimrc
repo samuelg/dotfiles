@@ -75,6 +75,7 @@ set wrapmargin=0
 
 " enable folding
 set foldmethod=indent
+set foldlevelstart=99
 
 " fzf
 set rtp+=/usr/local/opt/fzf
