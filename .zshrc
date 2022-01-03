@@ -76,7 +76,6 @@ plugins=(
   ansible
   aws
   brew
-  cargo
   compleat
   docker
   docker-compose
@@ -96,7 +95,6 @@ plugins=(
   python
   redis-cli
   rust
-  rustup
   ssh-agent
   tig
   tmux
