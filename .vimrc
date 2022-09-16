@@ -56,7 +56,7 @@ autocmd BufRead,BufNewFile *.md setlocal spell
 
 " nerdtree
 let g:NERDTreeShowHidden = 1
-autocmd VimEnter * NERDTree | wincmd p
+" autocmd VimEnter * NERDTree | wincmd p
 map <Leader>r :NERDTreeFind<cr>
 
 " show extra whitespace
