@@ -82,3 +82,4 @@ Exercism/
 aurora.toml
 .tmux/
 .influx_history
+.terminfo/
