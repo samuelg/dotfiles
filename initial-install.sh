@@ -19,6 +19,7 @@ brew install fd
 brew install fzf
 brew install git
 brew install golang
+brew install glow
 brew install htop
 brew install httpie
 brew install imagemagick
@@ -26,6 +27,7 @@ brew install jq
 brew install libpq
 brew install lnav
 brew install macvim
+brew install neovim
 brew install mtr
 brew install nvm
 brew install python3
