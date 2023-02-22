@@ -157,7 +157,7 @@ export NVM_DIR="$HOME/.nvm"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Various binaries
-export PATH="/usr/local/opt/ansible@2.8/bin:$PATH"
+export PATH="/usr/local/opt/ansible@2.9/bin:$PATH"
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 export PATH="/usr/local/opt/influxdb@1/bin:$PATH"
 

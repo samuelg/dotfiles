@@ -10,7 +10,7 @@ brew install --cask kitty
 brew install --cask alacritty
 brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 
-brew install ansible@2.8
+brew install ansible@2.9
 brew install aurora
 brew install beanstalkd
 brew install brew-cask
