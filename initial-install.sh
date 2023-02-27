@@ -64,6 +64,7 @@ git clone https://github.com/dense-analysis/ale.git ~/.vim/bundle/ale
 git clone -b release https://github.com/neoclide/coc.nvim.git ~/.vim/bundle/coc.nvim
 git clone https://github.com/airblade/vim-rooter.git ~/.vim/bundle/vim-rooter
 git clone https://github.com/dracula/vim.git ~/.vim/bundle/dracula
+git clone https://github.com/morhetz/gruvbox.git ~/.vim/bundle/gruvbox
 git clone https://github.com/ryanoasis/vim-devicons.git ~/.vim/bundle/vim-devicons
 git clone https://github.com/wojciechkepka/bogster.git ~/.vim/bundle/bogster
 git clone https://github.com/pearofducks/ansible-vim ~/.vim/bundle/ansible-vim

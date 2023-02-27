@@ -41,6 +41,7 @@ Applications/
 !.config/nvim/
 !.config/kitty/
 !.config/alacritty/
+!.config/zellij/
 .cache
 .NERDTreeBookmarks
 .vagrant.d

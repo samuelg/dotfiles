@@ -36,7 +36,7 @@ else
 endif
 
 " display rules
-colorscheme dracula
+colorscheme gruvbox
 let g:airline_powerline_fonts = 1
 set number
 set ruler
@@ -53,6 +53,9 @@ autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
 autocmd Filetype python setlocal ts=4 sw=4 expandtab
 autocmd BufRead,BufNewFile *.md setlocal spell
+
+" use system clipboard
+set clipboard=unnamed
 
 " nerdtree
 let g:NERDTreeShowHidden = 1
