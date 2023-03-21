@@ -115,7 +115,7 @@ export LANG=en_US.UTF-8
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='vim'
+  export EDITOR='nvim'
 fi
 
 # Compilation flags
@@ -142,7 +142,6 @@ alias ssh="TERM=xterm-256color ssh"
 alias -s {js,html,css,md,json,rb,py,rs,go,yml,toml,txt,log}=nvim
 
 export NODE_PATH=/usr/local/lib/node_modules
-export SVN_EDITOR=vim
 export PYTHONIOENCODING=utf-8
 export PATH=$PATH:/usr/local/sbin
 
