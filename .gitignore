@@ -84,3 +84,5 @@ aurora.toml
 .tmux/
 .influx_history
 .terminfo/
+.influxdbv2/
+influxdb2backup/
