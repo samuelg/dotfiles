@@ -8,6 +8,7 @@ xcode-select --install
 
 brew install --cask kitty
 brew install --cask alacritty
+brew install --cask finicky
 brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 
 brew install ansible@2.9

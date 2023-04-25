@@ -86,3 +86,4 @@ aurora.toml
 .terminfo/
 .influxdbv2/
 influxdb2backup/
+.finicky.js
