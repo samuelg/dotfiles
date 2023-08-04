@@ -13,6 +13,7 @@ brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 
 brew install ansible@2.9
 brew install aurora
+brew install bat
 brew install beanstalkd
 brew install brew-cask
 brew install exercism
