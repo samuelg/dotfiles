@@ -320,10 +320,66 @@ keybinds clear-defaults=true {
 //
 // pane_frames true
 
+// Define themes
+themes {
+    solarized-light {
+        fg 101 123 131
+        bg 253 246 227
+        black 7 54 66
+        red 220 50 47
+        green 133 153 0
+        yellow 181 137 0
+        blue 38 139 210
+        magenta 211 54 130
+        cyan 42 161 152
+        white 238 232 213
+        orange 203 75 22
+    }
+    gruvbox-light {
+        fg 60 56 54
+        bg 251 82 75
+        black 40 40 40
+        red 205 75 69
+        green 152 151 26
+        yellow 215 153 33
+        blue 69 133 136
+        magenta 177 98 134
+        cyan 104 157 106
+        white 213 196 161
+        orange 214 93 14
+    }
+    gruvbox-dark {
+        fg 213 196 161
+        bg 40 40 40
+        black 60 56 54
+        red 204 36 29
+        green 152 151 26
+        yellow 215 153 33
+        blue 69 133 136
+        magenta 177 98 134
+        cyan 104 157 106
+        white 251 241 199
+        orange 214 93 14
+    }
+    catppuccin-latte {
+        bg "#acb0be" // Surface2
+        fg "#acb0be" // Surface2
+        red "#d20f39"
+        green "#40a02b"
+        blue "#1e66f5"
+        yellow "#df8e1d"
+        magenta "#ea76cb" // Pink
+        orange "#fe640b" // Peach
+        cyan "#04a5e5" // Sky
+        black "#dce0e8" // Crust
+        white "#4c4f69" // Text
+    }
+}
+
 // Choose the theme that is specified in the themes section.
 // Default: default
 //
-theme "gruvbox-dark"
+theme "catppuccin-latte"
 
 // The name of the default layout to load on startup
 // Default: "default"
