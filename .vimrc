@@ -102,7 +102,7 @@ let g:ale_sign_warning = '😿'
 let g:rooter_patterns = ['.git', 'build', 'Makefile']
 
 " coc.nvim
-let  g:coc_node_path = '/Users/samuelg/.nvm/versions/node/v14.18.1/bin/node'
+let  g:coc_node_path = '/Users/samuelg/.nvm/versions/node/v18.17.1/bin/node'
 let g:coc_global_extensions = [
     \'coc-json',
     \'coc-tsserver',
