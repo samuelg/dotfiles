@@ -32,6 +32,7 @@ brew install macvim
 brew install neovim
 brew install mtr
 brew install nvm
+brew install pgformatter
 brew install python3
 brew install redis
 brew install ripgrep
