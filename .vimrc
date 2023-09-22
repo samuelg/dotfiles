@@ -36,13 +36,11 @@ else
 endif
 
 " display rules
-set background=light
-colorscheme solarized
+colorscheme dracula
 let g:airline_powerline_fonts = 1
 set number
 set ruler
 set hlsearch
-set guifont=MesloLGS\ NF:h14
 
 " spacing rules
 set expandtab
@@ -82,7 +80,7 @@ set foldmethod=indent
 set foldlevelstart=99
 
 " fzf
-set rtp+=/usr/local/opt/fzf
+set rtp+=/opt/homebrew/opt/fzf
 nnoremap <Leader>f :Files<CR>
 nnoremap <Leader>b :Buffers<CR>
 nnoremap <Leader>h :History<CR>
@@ -102,17 +100,15 @@ let g:ale_sign_warning = '😿'
 let g:rooter_patterns = ['.git', 'build', 'Makefile']
 
 " coc.nvim
-let  g:coc_node_path = '/Users/samuelg/.nvm/versions/node/v18.17.1/bin/node'
+let  g:coc_node_path = '/Users/samuelg/.nvm/versions/node/v18.18.0/bin/node'
 let g:coc_global_extensions = [
     \'coc-json',
     \'coc-tsserver',
     \'coc-go',
     \'coc-markdownlint',
-    \'coc-rust-analyzer',
     \'coc-pyright',
     \'coc-cmake',
     \'coc-css',
-    \'coc-sh',
     \'coc-snippets',
     \'coc-toml',
     \'coc-yaml',

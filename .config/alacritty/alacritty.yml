@@ -13,7 +13,7 @@
 #  - /path/to/alacritty.yml
 # color scheme
 import:
-  - ~/.config/alacritty/solarized_light.yml
+  - ~/.config/alacritty/dracula.yml
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
@@ -110,7 +110,8 @@ scrolling:
 # Font configuration
 font:
   normal:
-    family: "MesloLGS NF"
+    family: "FiraCode Nerd Font Mono"
+
 
   size: 14.0
 

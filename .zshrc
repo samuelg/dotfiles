@@ -1,6 +1,3 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/samuelg/.oh-my-zsh
 
@@ -65,7 +62,6 @@ NVM_AUTOLOAD=1
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  ansible
   aws
   brew
   compleat
@@ -86,10 +82,8 @@ plugins=(
   postgres
   python
   redis-cli
-  rust
   ssh-agent
   tig
-  tmux
   vagrant
   virtualenv
 )
@@ -97,8 +91,6 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
@@ -133,21 +125,12 @@ alias ssh="TERM=xterm-256color ssh"
 # suffix aliases
 alias -s {js,html,css,md,json,rb,py,rs,go,yml,toml,txt,log}=nvim
 
-export NODE_PATH=/usr/local/lib/node_modules
 export PYTHONIOENCODING=utf-8
-export PATH=$PATH:/usr/local/sbin
 
 # fzf
 export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-
-# Various binaries
-export PATH="/usr/local/opt/ansible@2.9/bin:$PATH"
-export PATH="/usr/local/opt/libpq/bin:$PATH"
-
-# PostGres binaries
-export POSTGRES_VERSION=11
-export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/$POSTGRES_VERSION/bin"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
