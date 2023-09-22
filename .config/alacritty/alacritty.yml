@@ -13,7 +13,7 @@
 #  - /path/to/alacritty.yml
 # color scheme
 import:
-  - ~/.config/alacritty/dracula.yml
+  - ~/.config/alacritty/nord.yml
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables

@@ -50,6 +50,7 @@ git clone -b release https://github.com/neoclide/coc.nvim.git ~/.vim/bundle/coc.
 git clone https://github.com/airblade/vim-rooter.git ~/.vim/bundle/vim-rooter
 git clone https://github.com/dracula/vim.git ~/.vim/bundle/dracula
 git clone https://github.com/morhetz/gruvbox.git ~/.vim/bundle/gruvbox
+git clone https://github.com/nordtheme/vim.git ~/.vim/bundle/nordtheme
 git clone https://github.com/ryanoasis/vim-devicons.git ~/.vim/bundle/vim-devicons
 git clone https://github.com/ericbn/vim-solarized.git ~/.vim/bundle/vim-solarized
 
