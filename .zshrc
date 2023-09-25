@@ -55,7 +55,7 @@ COMPLETION_WAITING_DOTS="true"
 DEFAULT_USER="samuelg"
 
 # automatically run `nvm use` when .nvmrc present
-NVM_AUTOLOAD=1
+zstyle ':omz:plugins:nvm' autoload yes
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -129,8 +129,3 @@ export PYTHONIOENCODING=utf-8
 
 # fzf
 export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
-
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
