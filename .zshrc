@@ -130,3 +130,7 @@ export PYTHONIOENCODING=utf-8
 
 # fzf
 export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
+
+# golang
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH:$GOPATH/bin

@@ -2,7 +2,8 @@
 
 brew install --cask alacritty
 brew install bat
-brew install ctags
+brew tap universal-ctags/universal-ctags
+brew install --HEAD universal-ctags
 brew install fd
 brew install fzf
 brew install golang
