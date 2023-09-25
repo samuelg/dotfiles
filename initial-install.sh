@@ -2,7 +2,7 @@
 
 brew install --cask alacritty
 brew install bat
-brew install brew-cask
+brew install ctags
 brew install fd
 brew install fzf
 brew install golang

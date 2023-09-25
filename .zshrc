@@ -124,6 +124,7 @@ alias weather="curl -4 wttr.in/huntsville"
 alias ssh="TERM=xterm-256color ssh"
 # suffix aliases
 alias -s {js,html,css,md,json,rb,py,rs,go,yml,toml,txt,log}=nvim
+alias ctags="`brew --prefix`/bin/ctags"
 
 export PYTHONIOENCODING=utf-8
 
