@@ -87,3 +87,4 @@ aurora.toml
 .influxdbv2/
 influxdb2backup/
 .finicky.js
+gcp/

@@ -135,5 +135,12 @@ export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH:$GOPATH/bin
 
+# python
+export PATH=$PATH:/opt/homebrew/opt/python@3.10/libexec/bin
+
 # node
 export NODE_PATH=$(nvm which 18)
+
+# gcp
+export PATH=$PATH:$HOME/gcp/bin
+. $HOME/gcp/completion.zsh.inc
