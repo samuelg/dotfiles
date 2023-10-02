@@ -23,5 +23,6 @@ chmod +x initial-install-pre.sh
 - Run the initial install script
 
 ```sh
+eval "$(/opt/homebrew/bin/brew shellenv)"
 ./initial-install.sh
 ```
