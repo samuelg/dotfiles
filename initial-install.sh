@@ -29,6 +29,7 @@ brew tap homebrew/cask-fonts
 brew install font-fira-code-nerd-font
 
 # setup node.js for neovim coc
+# see NODE_VERSION in .zshrc
 nvm install 18
 nvm use 18
 

@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/samuelg/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -52,7 +52,7 @@ COMPLETION_WAITING_DOTS="true"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # default user for theme
-DEFAULT_USER="samuelg"
+DEFAULT_USER="$(whoami)"
 
 # automatically run `nvm use` when .nvmrc present
 zstyle ':omz:plugins:nvm' autoload yes
@@ -134,3 +134,6 @@ export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
 # golang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH:$GOPATH/bin
+
+# node
+export NODE_VERSION=$(nvm version 18)

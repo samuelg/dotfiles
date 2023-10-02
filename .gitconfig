@@ -5,7 +5,7 @@
 	email = samuel.galarneau@gmail.com
 [core]
 	editor = nvim
-	excludesfile = /Users/samuelg/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [alias]
 	prettylog = log --oneline --graph --color --decorate
     lg = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)%an%d%Creset %s %Cgreen(%cr)%Creset' --date=relative
