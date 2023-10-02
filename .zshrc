@@ -136,4 +136,4 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH:$GOPATH/bin
 
 # node
-export NODE_VERSION=$(nvm version 18)
+export NODE_PATH=$(nvm which 18)
