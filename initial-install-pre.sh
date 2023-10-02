@@ -11,4 +11,5 @@ brew install git
 git init
 git remote add origin git@github.com:samuelg/dotfiles.git
 git fetch
-git checkout origin/main
+git checkout -f origin/main
+git switch -c main
