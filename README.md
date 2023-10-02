@@ -1,5 +1,11 @@
 # Initial setup on new machine
 
+- Install xcode command line tools
+
+```sh
+xcode-select --install
+```
+
 - Fetch setup script
 
 ```sh
