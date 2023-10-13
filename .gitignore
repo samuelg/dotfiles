@@ -88,3 +88,5 @@ aurora.toml
 influxdb2backup/
 .finicky.js
 gcp/
+.dlv/
+.yarnrc
