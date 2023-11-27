@@ -30,7 +30,7 @@ nnoremap gd :action GotoDeclaration <cr>
 nnoremap gi :action GotoImplementation <cr>
 nnoremap gj :action MethodDown <cr>
 nnoremap gk :action MethodUp <cr>
-nnoremap gs :action GotoSymbol <cr>
+nnoremap gs :action FileStructurePopup <cr>
 nnoremap gu :action ShowUsages <cr>
 
 " --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins

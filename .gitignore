@@ -90,3 +90,5 @@ influxdb2backup/
 gcp/
 .dlv/
 .yarnrc
+.boto
+cloud-sql-proxy
