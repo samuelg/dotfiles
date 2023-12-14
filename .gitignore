@@ -92,3 +92,5 @@ gcp/
 .yarnrc
 .boto
 cloud-sql-proxy
+.kube/
+.redisinsight-app/
