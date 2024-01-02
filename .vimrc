@@ -36,7 +36,7 @@ else
 endif
 
 " display rules
-colorscheme nord
+colorscheme github_light
 let g:airline_powerline_fonts = 1
 set number
 set ruler

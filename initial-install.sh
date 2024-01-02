@@ -55,6 +55,7 @@ git clone https://github.com/morhetz/gruvbox.git ~/.vim/bundle/gruvbox
 git clone https://github.com/nordtheme/vim.git ~/.vim/bundle/nordtheme
 git clone https://github.com/ryanoasis/vim-devicons.git ~/.vim/bundle/vim-devicons
 git clone https://github.com/ericbn/vim-solarized.git ~/.vim/bundle/vim-solarized
+git clone https://github.com/projekt0n/github-nvim-theme.git ~/.vim/bundle/github-nvim-theme
 
 # backup zshrc file first
 cp ~/.zshrc ~/.zshrc.backup
