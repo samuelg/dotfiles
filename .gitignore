@@ -94,3 +94,4 @@ gcp/
 cloud-sql-proxy
 .kube/
 .redisinsight-app/
+.cups/
