@@ -144,3 +144,5 @@ export NODE_PATH=$(nvm which 18)
 # gcp
 export PATH=$PATH:$HOME/gcp/bin
 . $HOME/gcp/completion.zsh.inc
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"

@@ -26,12 +26,14 @@ set NERDTree
 nnoremap gr :NERDTreeFind <cr>
 
 " File navigation
+" See https://gist.github.com/zchee/9c78f91cc5ad771c1f5d for list of available actions
 nnoremap gd :action GotoDeclaration <cr>
 nnoremap gi :action GotoImplementation <cr>
 nnoremap gj :action MethodDown <cr>
 nnoremap gk :action MethodUp <cr>
 nnoremap gs :action FileStructurePopup <cr>
 nnoremap gu :action ShowUsages <cr>
+nnoremap ga :action Annotate <cr>
 
 " --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
 

@@ -95,3 +95,5 @@ cloud-sql-proxy
 .kube/
 .redisinsight-app/
 .cups/
+.jenv/
+.m2/

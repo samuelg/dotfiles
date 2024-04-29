@@ -11,13 +11,16 @@ brew install golangci-lint
 brew install glow
 brew install htop
 brew install httpie
+brew install jenv
 brew install jq
 brew install libpq
 brew install neovim
+brew install maven
 brew install mtr
 brew install nvm
 brew install pgformatter
 brew install python3
+brew install redis
 brew install ripgrep
 brew install tig
 brew install tree
