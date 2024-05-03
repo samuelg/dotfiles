@@ -1,4 +1,4 @@
-import = [ "~/.config/alacritty/github_light.toml" ]
+import = [ "~/.config/alacritty/nord.toml" ]
 
 live_config_reload = true
 
