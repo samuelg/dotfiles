@@ -146,3 +146,6 @@ export PATH=$PATH:$HOME/gcp/bin
 . $HOME/gcp/completion.zsh.inc
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+# postgres binaries
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
