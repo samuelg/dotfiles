@@ -400,12 +400,25 @@ themes {
         white 229 233 240 // #E5E9F0
         orange 208 135 112 // #D08770
     }
+    molokai-dark {
+        fg 248 248 240
+        bg 27 29 30
+        black 0 0 0
+        red 255 0 0
+        green 0 140 0
+        yellow 255 255 0
+        blue 102 217 239
+        magenta 174 129 255
+        cyan 0 255 255
+        white 255 255 255
+        orange 253 151 31
+    }
 }
 
 // Choose the theme that is specified in the themes section.
 // Default: default
 //
-theme "nord"
+theme "molokai-dark"
 
 // The name of the default layout to load on startup
 // Default: "default"

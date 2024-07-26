@@ -36,8 +36,8 @@ else
 endif
 
 " display rules
-colorscheme nord
-let g:airline_powerline_fonts = 1
+colorscheme monokai-pro
+let g:lightline = {'colorscheme': 'monokaipro'}
 set number
 set ruler
 set hlsearch

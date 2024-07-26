@@ -46,8 +46,7 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 # vim plugins
 git clone https://github.com/preservim/nerdtree.git ~/.vim/bundle/nerdtree
 git clone https://github.com/editorconfig/editorconfig-vim.git ~/.vim/bundle/editorconfig-vim
-git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
-git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
+ git clone https://github.com/itchyny/lightline.vim ~/.vim/bundle/lightline.vim
 git clone https://github.com/sheerun/vim-polyglot.git ~/.vim/bundle/vim-polyglot
 git clone https://github.com/mhinz/vim-startify.git ~/.vim/bundle/vim-startify
 git clone https://github.com/junegunn/fzf.vim.git ~/.vim/bundle/fzf
@@ -60,6 +59,7 @@ git clone https://github.com/nordtheme/vim.git ~/.vim/bundle/nordtheme
 git clone https://github.com/ryanoasis/vim-devicons.git ~/.vim/bundle/vim-devicons
 git clone https://github.com/ericbn/vim-solarized.git ~/.vim/bundle/vim-solarized
 git clone https://github.com/projekt0n/github-nvim-theme.git ~/.vim/bundle/github-nvim-theme
+git clone https://github.com/loctvl842/monokai-pro.nvim.git ~/.vim/bundle/monokai-pro
 
 # backup zshrc file first
 cp ~/.zshrc ~/.zshrc.backup
