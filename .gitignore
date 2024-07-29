@@ -98,3 +98,5 @@ cloud-sql-proxy
 .jenv/
 .m2/
 .redis-insight/
+.zellij-layouts/
+bin/start-dev
