@@ -31,6 +31,7 @@ brew install zellij
 
 brew tap homebrew/cask-fonts
 brew install font-fira-code-nerd-font
+brew install font-bigblue-terminal-nerd-font
 
 # setup node.js for neovim coc
 # see NODE_VERSION in .zshrc
