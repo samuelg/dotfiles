@@ -47,7 +47,7 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 # vim plugins
 git clone https://github.com/preservim/nerdtree.git ~/.vim/bundle/nerdtree
 git clone https://github.com/editorconfig/editorconfig-vim.git ~/.vim/bundle/editorconfig-vim
- git clone https://github.com/itchyny/lightline.vim ~/.vim/bundle/lightline.vim
+git clone https://github.com/itchyny/lightline.vim ~/.vim/bundle/lightline.vim
 git clone https://github.com/sheerun/vim-polyglot.git ~/.vim/bundle/vim-polyglot
 git clone https://github.com/mhinz/vim-startify.git ~/.vim/bundle/vim-startify
 git clone https://github.com/junegunn/fzf.vim.git ~/.vim/bundle/fzf

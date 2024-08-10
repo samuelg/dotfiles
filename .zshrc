@@ -126,7 +126,6 @@ alias ssh="TERM=xterm-256color ssh"
 alias -s {js,html,css,md,json,rb,py,rs,go,yml,toml,txt,log}=nvim
 alias ctags="`brew --prefix`/bin/ctags"
 
-export PYTHONIOENCODING=utf-8
 
 # fzf
 export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
@@ -136,16 +135,24 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH:$GOPATH/bin
 
 # python
+export PYTHONIOENCODING=utf-8
 export PATH=$PATH:/opt/homebrew/opt/python@3.10/libexec/bin
 
 # node
 export NODE_PATH=$(nvm which 18)
 
+# java
+if [ -d "$HOME/.jenv" ]; then
+  export PATH="$HOME/.jenv/bin:$PATH"
+  eval "$(jenv init -)"
+fi
+
 # gcp
-export PATH=$PATH:$HOME/gcp/bin
-. $HOME/gcp/completion.zsh.inc
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
+if [ -d "$HOME/gcp" ]; then
+  export PATH=$PATH:$HOME/gcp/bin
+  . $HOME/gcp/completion.zsh.inc
+fi
+
 
 # postgres binaries
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
