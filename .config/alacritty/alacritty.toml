@@ -6,7 +6,7 @@ live_config_reload = true
 size = 16.0
 
 [font.normal]
-family = "BigBlueTermPlus Nerd Font Mono"
+family = "FiraCode Nerd Font Mono"
 
 [scrolling]
 history = 5000
