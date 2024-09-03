@@ -1,4 +1,4 @@
-import = [ "~/.config/alacritty/monokai_pro.toml" ]
+import = [ "~/.config/alacritty/dracula.toml" ]
 
 live_config_reload = true
 

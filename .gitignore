@@ -101,3 +101,4 @@ cloud-sql-proxy
 .redis-insight/
 .zellij-layouts/
 bin/start-dev
+.volta/

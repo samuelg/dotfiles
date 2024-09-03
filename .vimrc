@@ -36,8 +36,8 @@ else
 endif
 
 " display rules
-colorscheme monokai-pro
-let g:lightline = {'colorscheme': 'monokaipro'}
+colorscheme dracula
+let g:lightline = {'colorscheme': 'dracula'}
 set number
 set ruler
 set hlsearch
