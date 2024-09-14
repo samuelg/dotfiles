@@ -36,8 +36,8 @@ else
 endif
 
 " display rules
-colorscheme dracula
-let g:lightline = {'colorscheme': 'dracula'}
+colorscheme gruvbox
+let g:lightline = {'colorscheme': 'gruvbox'}
 set number
 set ruler
 set hlsearch
