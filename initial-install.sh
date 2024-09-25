@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 brew install --cask alacritty
+brew install awscli
 brew install bat
 brew tap universal-ctags/universal-ctags
 brew install --HEAD universal-ctags

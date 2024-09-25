@@ -119,13 +119,12 @@ alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias sssh="/usr/bin/ssh -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null"
 alias tv="tidy-viewer"
-alias weather="curl -4 wttr.in/huntsville"
+alias weather="curl -4 \"wttr.in/huntsville?u\""
 # don't pass alacritty terminfo to remote host
 alias ssh="TERM=xterm-256color ssh"
 # suffix aliases
 alias -s {js,html,css,md,json,rb,py,rs,go,yml,toml,txt,log}=nvim
 alias ctags="`brew --prefix`/bin/ctags"
-
 
 # fzf
 export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
