@@ -157,4 +157,4 @@ fi
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 # add home bin dir
-export PATH=~/bin:$PATH
+export PATH=~/bin:~/bin/private:$PATH
