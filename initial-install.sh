@@ -62,6 +62,7 @@ git clone https://github.com/ryanoasis/vim-devicons.git ~/.vim/bundle/vim-devico
 git clone https://github.com/ericbn/vim-solarized.git ~/.vim/bundle/vim-solarized
 git clone https://github.com/projekt0n/github-nvim-theme.git ~/.vim/bundle/github-nvim-theme
 git clone https://github.com/loctvl842/monokai-pro.nvim.git ~/.vim/bundle/monokai-pro
+git clone https://github.com/f-person/git-blame.nvim.git ~/.vim/bundle/git-blame
 
 # backup zshrc file first
 cp ~/.zshrc ~/.zshrc.backup

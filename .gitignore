@@ -55,7 +55,8 @@ Applications/
 .docker
 .bash_sessions
 .babel.json
-.aws
+.aws/
+.aws-sam/
 .ansible_vault
 .ansible_galaxy
 .ansible
@@ -104,3 +105,5 @@ bin/start-dev
 .volta/
 .anydesk/
 bin/private/
+.gk/
+.cookiecutter_replay/

@@ -87,6 +87,10 @@ nnoremap <Leader>h :History<CR>
 nnoremap <Leader>t :BTags<CR>
 nnoremap <Leader>s :Rg<CR>
 
+" git blame
+let g:gitblame_enabled = 0
+nnoremap <Leader>a :GitBlameToggle<CR>
+
 " only look for file contents when running Rg
 command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
 
