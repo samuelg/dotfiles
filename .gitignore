@@ -107,3 +107,4 @@ bin/start-dev
 bin/private/
 .gk/
 .cookiecutter_replay/
+.yarn/

@@ -157,4 +157,7 @@ fi
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 # add home bin dir
-export PATH=~/bin:~/bin/private:$PATH
+export PATH="$HOME/bin:$HOME/bin/private:$PATH"
+
+# yarn global binaries
+export PATH="$(yarn global bin):$PATH"

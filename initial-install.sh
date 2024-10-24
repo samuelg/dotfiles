@@ -3,8 +3,7 @@
 brew install --cask alacritty
 brew install awscli
 brew install bat
-brew tap universal-ctags/universal-ctags
-brew install --HEAD universal-ctags
+brew install universal-ctags
 brew install fd
 brew install fzf
 brew install golang
@@ -20,6 +19,7 @@ brew install maven
 brew install mtr
 brew install nvm
 brew install pgformatter
+brew install pgadmin4
 brew install python3
 brew install redis
 brew install ripgrep
