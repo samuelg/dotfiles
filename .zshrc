@@ -117,7 +117,7 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 alias vim="nvim"
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
-alias sssh="/usr/bin/ssh -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null"
+alias sssh="/usr/bin/ssh -F /dev/null -oIdentitiesOnly=yes -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null"
 alias tv="tidy-viewer"
 alias weather="curl -4 \"wttr.in/huntsville?u\""
 # don't pass alacritty terminfo to remote host
