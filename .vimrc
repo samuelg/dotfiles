@@ -38,6 +38,10 @@ endif
 " display rules
 colorscheme gruvbox
 let g:lightline = {'colorscheme': 'gruvbox'}
+highlight Normal guibg=none
+highlight NonText guibg=none
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
 set number
 set ruler
 set hlsearch

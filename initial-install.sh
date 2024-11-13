@@ -9,6 +9,7 @@ brew install fzf
 brew install golang
 brew install golangci-lint
 brew install glow
+brew install graphviz
 brew install htop
 brew install httpie
 brew install jenv
