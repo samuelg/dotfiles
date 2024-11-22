@@ -35,6 +35,8 @@ brew tap homebrew/cask-fonts
 brew install font-fira-code-nerd-font
 brew install font-bigblue-terminal-nerd-font
 
+brew install --cask nikitabobko/tap/aerospace
+
 # setup node.js for neovim coc
 # see NODE_VERSION in .zshrc
 nvm install 18

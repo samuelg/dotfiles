@@ -39,6 +39,7 @@ Applications/
 .pgpass
 .pgadmin_histoqueries
 .config/*
+!.config/aerospace/
 !.config/nvim/
 !.config/kitty/
 !.config/alacritty/
