@@ -30,6 +30,8 @@ brew install watch
 brew install wget
 brew install yamllint
 brew install zellij
+brew install zig
+brew install zls
 
 brew tap homebrew/cask-fonts
 brew install font-fira-code-nerd-font
