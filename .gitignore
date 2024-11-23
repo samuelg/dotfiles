@@ -41,6 +41,7 @@ Applications/
 .config/*
 !.config/aerospace/
 !.config/nvim/
+.config/nvim/lazy-lock.json
 !.config/kitty/
 !.config/alacritty/
 !.config/zellij/
