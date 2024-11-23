@@ -80,6 +80,7 @@ set listchars=tab:▸\ ,eol:¬
 set colorcolumn=81
 " do not auto insert newlines at max width
 set textwidth=0
+
 set wrapmargin=0
 
 " enable folding
@@ -108,7 +109,7 @@ let g:ale_sign_error = '🤬'
 let g:ale_sign_warning = '😿'
 
 " vim-rooter
-let g:rooter_patterns = ['.git', 'build', 'Makefile']
+let g:rooter_patterns = ['.git', 'Makefile']
 
 " coc.nvim
 let  g:coc_node_path = $NODE_PATH
@@ -153,10 +154,10 @@ else
   inoremap <silent><expr> <c-@> coc#refresh()
 endif
 
-" Use `[g` and `]g` to navigate diagnostics
+" Use `go` and `gp` to navigate diagnostics
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
+nmap <silent> go <Plug>(coc-diagnostic-prev)
+nmap <silent> gp <Plug>(coc-diagnostic-next)
 
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
@@ -198,5 +199,5 @@ endif
 command! -nargs=0 Format :call CocActionAsync('format')
 
 " Add `:OR` command for organize imports of the current buffer.
-command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
+command! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')
 
