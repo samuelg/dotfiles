@@ -16,6 +16,7 @@ brew install jenv
 brew install jq
 brew install libpq
 brew install neovim
+brew install markdownlint-cli
 brew install maven
 brew install mtr
 brew install nvm
