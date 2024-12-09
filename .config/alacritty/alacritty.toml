@@ -1,4 +1,4 @@
-import = [ "~/.config/alacritty/gruvbox_dark.toml" ]
+import = [ "~/.config/alacritty/night_owl.toml" ]
 
 live_config_reload = true
 
@@ -14,7 +14,7 @@ multiplier = 3
 
 [window]
 decorations = "none"
-opacity = 0.8
+opacity = 1
 
 [window.padding]
 x = 2
