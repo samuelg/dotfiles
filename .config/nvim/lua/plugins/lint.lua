@@ -8,10 +8,10 @@ return {
     local lint = require 'lint'
     lint.linters_by_ft = {
       markdown = { 'markdownlint' },
-      javascript = { 'eslint' },
-      javascriptreact = { 'eslint' },
-      typescript = { 'eslint' },
-      typescriptreact = { 'eslint' },
+      javascript = { 'eslint_d' },
+      javascriptreact = { 'eslint_d' },
+      typescript = { 'eslint_d' },
+      typescriptreact = { 'eslint_d' },
       yaml = { 'yamllint' },
     }
 
@@ -50,7 +50,7 @@ return {
     -- Create autocommand which carries out the actual linting
     -- on the specified events.
     local lint_augroup = vim.api.nvim_create_augroup('lint', { clear = true })
-    vim.api.nvim_create_autocmd({ 'BufEnter', 'BufWritePost', 'InsertLeave' }, {
+    vim.api.nvim_create_autocmd({ 'BufEnter', 'BufWritePost' }, {
       group = lint_augroup,
       callback = function()
         -- Only run the linter in buffers that you can modify in order to
