@@ -229,6 +229,10 @@ if.app-id = 'md.obsidian'
 run = 'move-node-to-workspace 5'
 
 [[on-window-detected]]
+if.app-id = 'net.rinik.Pomodoro-One'
+run = 'move-node-to-workspace t'
+
+[[on-window-detected]]
 if.app-id = 'com.apple.ScreenSharing'
 run = ['layout floating']
 
