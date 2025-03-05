@@ -30,7 +30,7 @@ o.foldmethod = "expr"
 o.foldexpr = "v:lua.vim.treesitter.foldexpr()"
 o.foldtext = ""
 o.foldlevel = 99
-o.foldlevelstart = 3
+o.foldlevelstart = 5
 
 -- Enable break indent
 o.breakindent = true
