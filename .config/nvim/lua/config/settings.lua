@@ -84,7 +84,7 @@ global.maplocalleader = " "
 k.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- Neotree key maps
-k.set('n', '<leader>r', ':Neotree focus<CR>', { desc = 'Open Neotree with the current file focused' })
+k.set('n', '<leader>r', ':Neotree focus reveal<CR>', { desc = 'Open Neotree with the current file focused' })
 k.set('n', '<leader>e', ':Neotree close<CR>', { desc = 'Close Neotree' })
 
 -- ----------- Auto commands ----------
