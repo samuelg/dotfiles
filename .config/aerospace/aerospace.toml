@@ -237,4 +237,8 @@ if.app-id = 'com.apple.ScreenSharing'
 run = ['layout floating']
 
 [[on-window-detected]]
+if.app-id = 'com.apple.Passwords'
+run = ['layout floating']
+
+[[on-window-detected]]
 run = 'move-node-to-workspace 6'
