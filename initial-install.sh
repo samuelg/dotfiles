@@ -5,6 +5,7 @@ brew install awscli
 brew install bat
 brew install universal-ctags
 brew install fd
+brew install ffmpeg
 brew install fzf
 brew install golang
 brew install golangci-lint
