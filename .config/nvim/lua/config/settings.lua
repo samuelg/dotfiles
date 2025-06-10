@@ -71,6 +71,9 @@ o.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 o.scrolloff = 10
 
+-- turn on term colors
+o.termguicolors = true
+
 -- ----------- Key mappings -----------
 -- NOTE: some key mappings configured in plugin specs
 
