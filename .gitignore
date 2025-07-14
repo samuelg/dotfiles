@@ -112,3 +112,4 @@ bin/private/
 .yarn/
 .gradle/
 .cdk/
+.angular-config.json

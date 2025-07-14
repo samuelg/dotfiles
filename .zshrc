@@ -73,6 +73,7 @@ plugins=(
   history
   httpie
   macos
+  ng
   node
   npm
   nvm
